@@ -1,2 +1,2 @@
 # hy-event-bus
-js event bus
+JS event bus
