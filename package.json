@@ -1,0 +1,33 @@
+{
+  "name": "hy-event",
+  "version": "1.0.0",
+  "description": "JS event manager",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanYu-O/hy-event.git"
+  },
+  "keywords": [
+    "JS",
+    "Event"
+  ],
+  "author": "HanYu-O",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HanYu-O/hy-event/issues"
+  },
+  "homepage": "https://github.com/HanYu-O/hy-event#readme",
+  "dependencies": {
+    "typescript": "^4.7.4",
+    "vite": "^3.0.8"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.22.0"
+  }
+}
