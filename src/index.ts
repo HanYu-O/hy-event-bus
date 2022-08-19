@@ -44,7 +44,7 @@ export default class HyEventBus {
         }
     }
 
-    hasEventListener(event: string, callback: callback, scope: unknown[]) {
+    hasEventListener(event: string, callback: callback, scope: unknown) {
         if (typeof this.listeners[event] !== 'undefined') {
             const numOfCallbacks = this.listeners[event].length
 

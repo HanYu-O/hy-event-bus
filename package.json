@@ -1,11 +1,12 @@
 {
-  "name": "hy-event",
+  "name": "hy-event-bus",
   "version": "1.0.0",
   "description": "JS event manager",
   "main": "index.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,8 +27,16 @@
     "vite": "^3.0.8"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.7",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
-    "eslint": "^8.22.0"
+    "babel-jest": "^28.1.3",
+    "eslint": "^8.22.0",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.9.1"
   }
 }
